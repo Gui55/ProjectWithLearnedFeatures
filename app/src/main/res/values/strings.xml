@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Mergulhao Special Otaku Room</string>
+    <string name="userWord">Usuário</string>
+    <string name="passwordWord">Senha</string>
+    <string name="loginWord">Login</string>
+    <string name="cadastroWord">Cadastrar Usuário</string>
+    <string name="nomeWord">Nome</string>
+    <string name="sobreNomeWord">Sobrenome</string>
+    <string name="emailWord">E-Mail</string>
+    <string name="crieSenhaText">Crie uma senha:</string>
+    <string name="digiteSenhaWord">Digite uma senha</string>
+    <string name="repitaSenhaWord">Repita a senha</string>
+    <string name="tirarFotoWord">Tirar Foto</string>
+    <string name="dadosBasicoText">Dados Básicos:</string>
+    <string name="fotoPerfilText">Foto de Perfil:</string>
+</resources>

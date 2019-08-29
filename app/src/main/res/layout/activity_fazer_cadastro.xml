@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/crieSenhaSize"
+            android:text="@string/dadosBasicoText"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/textHeight"/>
+
+        <EditText
+            android:id="@+id/enterCadastroNome"
+            android:hint="@string/nomeWord"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/textHeight"/>
+
+        <EditText
+            android:id="@+id/enterCadastroSobrenome"
+            android:hint="@string/sobreNomeWord"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/textHeight"/>
+
+        <EditText
+            android:id="@+id/enterCadastroEmail"
+            android:hint="@string/emailWord"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/textHeight"/>
+
+        <TextView
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/crieSenhaSize"
+            android:text="@string/crieSenhaText"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/textHeight"/>
+
+        <EditText
+            android:id="@+id/enterDigiteSenha"
+            android:hint="@string/digiteSenhaWord"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/textHeight"/>
+
+        <EditText
+            android:id="@+id/enterRepitaSenha"
+            android:hint="@string/repitaSenhaWord"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/textHeight"/>
+
+        <TextView
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/crieSenhaSize"
+            android:text="@string/fotoPerfilText"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/textHeight"/>
+
+        <Button
+            android:id="@+id/buttonTirarFoto"
+            android:layout_gravity="center"
+            android:text="@string/tirarFotoWord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="300dp" />
+
+        <Button
+            android:id="@+id/buttonCadastrar"
+            android:text="@string/cadastroWord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</ScrollView>

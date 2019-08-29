@@ -1,0 +1,4 @@
+#Thu Aug 29 16:07:50 BRT 2019
+base.0=C\:\\Users\\Treinamento\\AndroidGit\\ProjetinhoComTudo\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex
